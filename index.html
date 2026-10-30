@@ -1,220 +1,207 @@
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>Портфоліо Владислава</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>портфоліо Владислава</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="page">
 
-    <header class="navbar">
-        <a class="brand" href="#home">
-            <span class="brand-icon">⌘</span>
-            <span>Сайт Владислава</span>
+  <header class="navbar">
+    <a class="brand" href="#home">
+      <span class="brand-icon">⌘</span>
+      <span>Сайт Владислава</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#home">Головна</a>
+      <a href="#about">Про мене</a>
+      <a href="#hobbies">Захоплення</a>
+      <a href="#git">Git</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="eyebrow">
+        ✦ MY FIRST GITHUB PROJECT
+      </span>
+
+      <h1>Привіт! Це моя  <span class="gradient-text"> персональна сторінка </span> </h1>
+
+      <p class="hero-description">
+        Я навчаюся працювати з Git та GitHub.
+        Це моя перша вебсторінка.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-light"
+           href="https://github.com/kupecvladislav-design"
+           target="_blank"
+           rel="noopener noreferrer">
+          ◉ Мій GitHub
         </a>
 
-        <nav class="nav-links">
-            <a href="#home">Головна</a>
-            <a href="#about">Про мене</a>
-            <a href="#hobbies">Захоплення</a>
-            <a href="#git">Git</a>
-            <a href="#contacts">Контакти</a>
-        </nav>
-    </header>
+        <a class="btn btn-primary" href="#about">
+          Про мене ↓
+        </a>
+      </div>
+    </div>
 
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <span class="eyebrow">
-                ✦ MY FIRST GITHUB PROJECT
-            </span>
+    <div class="hero-visual">
+      <div class="orbit"></div>
+      <div class="floating-icon icon-git">⑂</div>
+      <div class="main-icon">⌘</div>
+      <div class="floating-icon icon-code">
+        &lt;/&gt;
+      </div>
+      <div class="floating-icon icon-terminal">
+        &gt;_
+      </div>
+    </div>
+  </section>
 
+  <div class="cards">
 
+    <section class="glass-card" id="hobbies">
+      <div class="card-icon pink">♥️</div>
 
-<
+        <div>
+          <h2>Мої захоплення</h2>
 
-<h1>Привіт! Це моя <span class="gradient-text"> персональна сторінка </span> </h1>
-
-
-            
-
-            <p class="hero-description">
-                Я студент, який вивчає програмування,
-                веброзробку та роботу з Git і GitHub.
-                Це мій перший власний вебсайт.
-            </p>
-
-            <div class="hero-actions">
-                <a class="btn btn-light"
-                   href="https://github.com/kupecvladislav-design"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    ◉ Мій GitHub
-                </a>
-
-                <a class="btn btn-primary" href="#about">
-                    Про мене ↓
-                </a>
-            </div>
-        </div>
-
-        <div class="hero-visual">
-            <div class="orbit"></div>
-            <div class="floating-icon icon-git">⑂</div>
-            <div class="main-icon">⌘</div>
-            <div class="floating-icon icon-code">
-                &lt;/&gt;
-            </div>
-            <div class="floating-icon icon-terminal">
-                &gt;_
-            </div>
+          <ul class="hobbies-list">
+            <li>Програмування</li>
+            <li>грати в Метро</li>
+            <li>Їсти</li>
+            <li>Слухати музичку</li>
+          </ul>
         </div>
     </section>
 
-    <div class="cards">
 
-        <section class="glass-card" id="about">
-            <div class="card-icon blue">●</div>
-            <div>
-                <h2>Про мене</h2>
-                <p>
-                    Мене звати Владислав.
+    <section class="glass-card" id="about">
+      <div class="card-icon blue">●</div>
+      <div>
+        <h2>Про мене</h2>
+        <p>
+          Мене звати Владислав.
                     Я навчаюся програмуванню,
                     вивчаю Python, HTML, CSS,
                     Git та GitHub.
-                </p>
-            </div>
-        </section>
+        </p>
+      </div>
+    </section>
 
-        <section class="glass-card" id="hobbies">
-            
-<section class="glass-card" id="hobbies">
-    <div class="card-icon pink">♥</div>
+    <section class="glass-card" id="contacts">
+      <div class="card-icon cyan">✉️</div>
+      <div>
+        <h2>Мої контакти</h2>
+        <a href="mailto:kupecvladislav@gmail.com">
+          kupecvladislav@gmail.com
+        </a>
+      </div>
+    </section>
 
-    <div>
-        <h2>Мої захоплення</h2>
+  </div>
 
+  <section class="git-panel" id="git">
 
-<ul class="hobbies-list">
-    <li>Програмування</li>
-    <li>Комп'ютерні технології</li>
-    <li>Створення власних проєктів</li>
-    <li>Вивчення Python</li>
-</ul>
+  <div class="section-heading">
+    <span class="git-symbol">⑂</span>
+    <h2>Результати роботи з Git</h2>
+  </div>
+
+  <p class="section-description">
+    Історія комітів, гілки та результати
+    виконання Git-команд.
+  </p>
+
+  <div class="git-tabs">
+
+    <input type="radio"
+           name="git-tab"
+           id="tab-status" checked>
+
+    <input type="radio"
+           name="git-tab"
+           id="tab-branch">
+
+    <input type="radio"
+           name="git-tab"
+           id="tab-log">
+
+    <input type="radio"
+           name="git-tab"
+           id="tab-merge">
+
+    <div class="tab-labels">
+      <label for="tab-status">Git Status</label>
+      <label for="tab-branch">Git Branch</label>
+      <label for="tab-log">Git Log</label>
+      <label for="tab-merge">Merge History</label>
     </div>
-</section>
 
+    <div class="terminal">
 
-        <section class="glass-card" id="contacts">
-            <div class="card-icon cyan">✉</div>
-            <div>
-                <h2>Мої контакти</h2>
-                <p>
-                    Email: kupecvladislav@gmail.com
-                </p>
-                <a href="https://github.com/kupecvladislav-design"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Мій профіль GitHub
-                </a>
-            </div>
-        </section>
-
-    </div>
-
-    
-<section class="git-panel" id="git">
-
-    <div class="section-heading">
-        <span class="git-symbol">⑂</span>
-        <h2>Результати роботи з Git</h2>
-    </div>
-
-    <p class="section-description">
-        Історія комітів, гілки та результати
-        виконання Git-команд.
-    </p>
-
-    <div class="git-tabs">
-
-        <input type="radio" name="git-tab"
-               id="tab-status" checked>
-
-        <input type="radio" name="git-tab"
-               id="tab-branch">
-
-        <input type="radio" name="git-tab"
-               id="tab-log">
-
-        <input type="radio" name="git-tab"
-               id="tab-merge">
-
-        <div class="tab-labels">
-            <label for="tab-status">Git Status</label>
-            <label for="tab-branch">Git Branch</label>
-            <label for="tab-log">Git Log</label>
-            <label for="tab-merge">Merge History</label>
+      <div class="terminal-header">
+        <div class="window-dots">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
         </div>
 
-        <div class="terminal">
-            <div class="terminal-header">
-                <div class="window-dots">
-                    <span class="dot red"></span>
-                    <span class="dot yellow"></span>
-                    <span class="dot green"></span>
-                </div>
+        <span class="terminal-title">
+          git-terminal
+        </span>
+      </div>
 
-                <span class="terminal-title">
-                    git-terminal
-                </span>
-            </div>
+      <div class="terminal-body">
 
-            <div class="terminal-body">
-
-                <pre class="tab-content status"><code>$ git status
+        <pre class="tab-content status"><code>$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
-nothing to commit, working tree clean</code></pre>
+nothing to commit, working tree clean
+</code></pre>
 
-                <pre class="tab-content branch"><code>$ git branch -a
+        <pre class="tab-content branch"><code>$ git branch -a
   feature/about
 * main
   remotes/origin/HEAD -> origin/main
   remotes/origin/feature/about
-  remotes/origin/main</code></pre>
+  remotes/origin/main
+</code></pre>
 
-                <pre class="tab-content log"><code>$ git log --oneline
+        <pre class="tab-content log"><code>$ git log --oneline
 a629d0f Merge main into feature/about
 e66bb9e Change page heading
 789d41c Update main heading
 46b7593 Update hobbies list
 c87652f Add hobbies section
 aa1aae2 Add initial website
-aba1021 Initial commit</code></pre>
+aba1021 Initial commit
+</code></pre>
 
-                <pre class="tab-content merge"><code>$ git log --merges
+        <pre class="tab-content merge"><code>$ git log --merges
 commit a629d0f
 Merge: e66bb9e 789d41c
-Merge main into feature/about</code></pre>
+Merge main into feature/about
+</code></pre>
 
-            </div>
-        </div>
-
+      </div>
     </div>
+
+  </div>
 </section>
 
-
-    <footer class="footer">
-        <p>
-            Створено Владиславом |
-            Made with Git & GitHub Pages
-        </p>
-    </footer>
+  <footer class="footer">
+    <p>Made with Git & GitHub Pages</p>
+  </footer>
 
 </div>
 
